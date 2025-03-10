@@ -21,7 +21,7 @@ int main()
         while (carro1 < DISTANCIA_FINAL && carro2 < DISTANCIA_FINAL)
         {
             carro1 += rand() % 5 + 1;
-            carro2 = rand() % 5 + 1;
+            carro2 += rand() % 5 + 1;
 
             cout << "Carro1: ";
             for (int i = 0; i < carro1; i++)
